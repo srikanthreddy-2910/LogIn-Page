@@ -1,5 +1,5 @@
-import Main from "./components/Main.jsx";
-import Footer from "./components/Footer.jsx";
+import Main from "./MainContainer.jsx";
+import Footer from "./Footer.jsx";
 import { useState } from "react";
 
 function App() {

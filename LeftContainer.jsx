@@ -1,4 +1,4 @@
-import spreadBgImg from "../assets/spreadBgImg.jpg";
+import spreadBgImg from "./spreadBgImg.jpg";
 
 export default function LeftContainer() {
   return (
