@@ -57,56 +57,62 @@
   animation-delay: 3s;
 }
 
-@media (max-width: 1045px) {
+@media (max-width: 1290px) {
   .right-container {
     background-color: transparent;
-    width: 65%;
+    width: 70%;
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   .container-text {
     display: none;
   }
-
   .left-container {
     min-width: 100%;
   }
-
   .left-container img {
     width: 100%;
-    height: 87.5vh;
+    height: 100%;
     object-fit: fill;
   }
-
-  .text-overlay {
-    display: none;
-  }
   .top-login-details {
-    width: 300px;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    width: 450px;
   }
   .bottom-signup-detail {
-    width: 300px;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    width: 450px;
   }
 }
 
-@media (max-height: 680px) {
-  .footer-container {
-    display: none;
-  }
+@media (min-width: 720px) and(max-width:1290px) {
+}
 
-  .main-container {
-    min-height: 100vh;
+@media (max-width: 720px) {
+  .top-login-details {
+    width: 100%;
   }
-  .left-container {
-    min-height: 100%;
+  .bottom-signup-detail {
+    width: 100%;
   }
-  .left-container > img {
-    min-height: 100%;
+}
+
+@media (max-width: 475px) {
+  .right-container {
+    width: 300px;
+  }
+  .top-login-details {
+    width: 100%;
+    padding: 24px;
+  }
+  .bottom-signup-detail {
+    width: 100%;
+    padding: 16px;
+  }
+  .copyRightSection {
+    font-size: 0.85rem;
+  }
+  .footer-container {
+    min-height: 72px;
   }
 }

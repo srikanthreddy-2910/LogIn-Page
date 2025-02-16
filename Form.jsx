@@ -2,9 +2,8 @@ import { useState } from "react";
 
 export default function Form() {
   const [details, setDetails] = useState({ yourId: "", password: "" });
-  {
-    /* Event Handilings to update values after enter userId and password*/
-  }
+
+  {/* Event Handilings to update values after enter userId and password*/}
   function handleChange(event) {
     const { name, value } = event.currentTarget;
 
@@ -14,9 +13,7 @@ export default function Form() {
     }));
   }
 
-  {
-    /* Event Handilings to submit a Form */
-  }
+  {/* Event Handilings to submit a Form */}
   function handleSubmit(event) {
     event.preventDefault();
     console.log("Form Submitted:", details);

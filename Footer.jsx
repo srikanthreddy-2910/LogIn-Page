@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 
 export default function Footer() {
   return (
-    <footer className="footer-container min-h-[15%] bg-gray-800 text-white flex flex-col justify-center items-center py-4">
+    <footer className="footer-container min-h-[96px] bg-gray-800 text-white flex flex-col gap-3 justify-center items-center overflow-hidden">
       {/* Some additional information blocks */}
-      <div className="flex space-x-6 mb-4">
+      <div className="flex space-x-6">
         <a href="#" className="text-sm hover:text-gray-400 transition-colors">
           About
         </a>
@@ -20,15 +20,15 @@ export default function Footer() {
       </div>
 
       {/* copy rights section */}
-      <div className="flex items-center ">
+      <div className="copyRightSection flex">
         {/* Language and Language Button */}
-        <span className="text-base ">English</span>
+        <span className="lang self-center">English</span>
         <button className="bg-gray-700 text-white mr-3 px-1 py-0.5 rounded-md hover:bg-gray-600 transition-colors">
           eng(UK)
         </button>
 
         {/* Copyright Symbol and Text */}
-        <span className="text-base">
+        <span className="copyright overflow-hidden whitespace-nowrap text-ellipsis self-center">
           © 2025 spread public. All rights reserved.
         </span>
       </div>
