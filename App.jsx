@@ -3,7 +3,7 @@ import Footer from "./Footer.jsx";
 
 function App() {
   return (
-    <div className="container flex flex-col min-h-[100vh] min-w-[100vw]">
+    <div className="container flex flex-col min-h-[100vh] min-w-[100vw] relative">
       {/* Main container */}
       <Main />
 
